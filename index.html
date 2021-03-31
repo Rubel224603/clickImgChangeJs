@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>change image onclick </title>
+	<link rel="icon" href="img/0.jpg"/>
+</head>
+<body>
+	<h1 style="text-align:center;color:green;font-size: 50px;">Clik the Small Img and See it</h1>
+
+	<div style="margin:0 auto;width: 500px;">
+		<img src="img/0.jpg" alt="" height="300" width="450" id="mainImg"/>
+	</div>
+	<div style="margin:0 auto; width: 400px;padding: 10px;">
+		
+		<img src="img/1.jpg"  alt="" height="45px"; width="50px" onclick="changImg2()"  style="cursor:pointer"/>
+		<img src="img/0.jpg"  alt="" height="45px"; width="50px" onclick="changImg3()" style="cursor:pointer" />
+		<img src="img/3.jpg"  alt="" height="45px"; width="50px" onclick="changImg4()" style="cursor:pointer" />
+		<img src="img/4.jpg"  alt="" height="45px"; width="50px" onclick="changImg5()" style="cursor:pointer" />
+		<img src="img/5.jpg"  alt="" height="45px"; width="50px" onclick="changImg6()" style="cursor:pointer" />
+		<img src="img/6.jpg"  alt="" height="45px"; width="50px" onclick="changImg7()" style="cursor:pointer" />
+		<img src="img/7.jpg"  alt="" height="45px"; width="50px" onclick="changImg1()" style="cursor:pointer" />
+
+	</div>
+	
+	<script type="text/javascript">
+	 
+	  function changImg2(){
+	  
+		document.getElementById("mainImg").src="img/1.jpg";
+	  } 
+	  function changImg3(){
+	  
+		document.getElementById("mainImg").src="img/0.jpg";
+	  }
+	  function changImg4(){
+	  
+		document.getElementById("mainImg").src="img/3.jpg";
+	  }
+	  function changImg5(){
+	  
+		document.getElementById("mainImg").src="img/4.jpg";
+	  }
+	  function changImg6(){
+	  
+		document.getElementById("mainImg").src="img/5.jpg";
+	  }
+	  function changImg7(){
+	  
+		document.getElementById("mainImg").src="img/6.jpg";
+	  } function changImg1(){
+	  
+		document.getElementById("mainImg").src="img/7.jpg";
+	  }
+	</script>
+	
+	
+</body>
+</html>
